@@ -1,0 +1,14 @@
+{
+  "name": "component-demo",
+  "version": "1.0.0",
+  "description":
+    "A demo of web components built with no library, Nutmeg, Polymer, and Stencil.",
+  "scripts": {
+    "start": "npx firebase serve"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-tools": "^3.18.6"
+  }
+}
