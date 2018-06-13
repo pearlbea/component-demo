@@ -44,11 +44,11 @@ h1 {
   width: 300px;
 }
 a {
-  color: #f76416;
+  color: #bd3200;
   text-decoration: none;
 }
-a:visited {
-  color: #bd3200;
+a:hover {
+  color: #f35603;
 }
 footer {
   background-color: #78afc4;
