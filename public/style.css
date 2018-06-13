@@ -58,9 +58,23 @@ footer {
   padding: 2em;
 }
 
-@media (max-width: 675px) {
+@media (max-width: 975px) {
+  .info {
+    flex: 1 1 40%;
+  }
+  .info ul {
+    font-size: 1.1em;
+    line-height: 1.25em;
+  }
+}
+
+@media (max-width: 710px) {
   .info {
     order: 1;
+    flex: 1 1 100%;
+  }
+  .info ul {
+    font-size: 1.25em;
   }
   .img-wrapper {
     order: 2;
