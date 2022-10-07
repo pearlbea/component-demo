@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - firebase-tools > @google-cloud/functions-emulator > lodash:
+        patched: '2022-10-07T22:39:32.085Z'
+  'npm:lodash:20180130':
+    - firebase-tools > @google-cloud/functions-emulator > cli-table2 > lodash:
+        patched: '2022-10-07T22:39:32.085Z'
